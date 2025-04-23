@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sananda's Portfolio</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="section header">
+    <h1><span id="typewriter" style="color: #88304E;font-family: cursive;font-size: larger;"></span></h1>
+  </header>
+  
+  <section class="buttons">
+    <!-- Buttons -->
+    <button class="btn hirebtn" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">
+      Hire Me
+    </button>
+  
+    <a href="https://github.com/sana0704" target="_blank" class="btn linkbtn">
+      Go To GitHub
+    </a>
+  
+    <a href="./Static/Sananda_Roy_Resume.pdf" download class="btn linkbtn" >
+      Download Resume
+    </a>
+  </section>
+  
+<!-- About -->
+<section class="section about" id="about">
+  <h2 class="animated-text">About Me</h2>
+  <p class="about-text">
+    I'm <strong><mark>Sananda Roy</mark></strong>, a passionate Full Stack Web Developer with a background in Electronics & Communication. I enjoy building responsive and visually engaging websites that not only look great but also deliver seamless user experiences.
+  </p>
+  <p class="about-text">
+   <mark> With a blend of frontend and backend skills — from HTML, CSS, and JavaScript to React, Python, and MySQL — I love transforming ideas into functional and elegant web solutions.
+  </p></mark>
+  <p class="about-text">
+    I'm currently pursuing a Master's in Full Stack Web Development at Itvedant and constantly pushing the boundaries of what I can create with code.
+  </p>
+</section>
+
+
+<section class="section skills" id="skills">
+  <h2 class="section-title ">My Skills</h2>
+
+  <div class="skills-grid">
+    <div class="skill-card" style="--clr: #E4BB97;">HTML5</div>
+    <div class="skill-card" style="--clr: #8299be;">CSS3</div>
+    <div class="skill-card" style="--clr: #9D5C63;">Bootstrap</div>
+
+        <div class="skill-card js-group" style="--clr: #8d7361;">
+      JavaScript ⚡
+      <div class="sub-skill">ES6+</div>
+      <div class="sub-skill">DOM Manipulation</div>
+      <div class="sub-skill">CallBacks and Promises </div>
+      <div class="sub-skill">Error-Handling</div>
+    </div>
+    
+    <div class="skill-card react-group" style="--clr: #90C67C;">
+      React ⚛️
+      <div class="sub-skill">Redux</div>
+      <div class="sub-skill">Recat-Hooks</div>
+      <div class="sub-skill">State Management</div>
+      <div class="sub-skill">React-Router</div>
+    </div>
+
+    <div class="skill-card" style="--clr: #E4BB97;">Python</div>
+    <div class="skill-card" style="--clr: #8194b4;">MySQL</div>
+    <div class="skill-card" style="--clr: #9D5C63;">Git & GitHub</div>
+  </div>
+</section>
+
+
+  
+<!-- project -->
+  <section class="section projects" id="projects">
+    <h2 class="animated-text">Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>Recipe List App</h3>
+        <p>React | CSS</p>
+        <a href="https://github.com/sana0704/ReactProject1" target="_blank">View Code</a>
+        <a href="index2.html" target="_blank">View More</a>
+      </div>
+  
+      <div class="project-card">
+        <h3>Web Management App</h3>
+        <p>HTML | CSS | JavaScript</p>
+        <a href="https://internship-web-management-app.vercel.app/" target="_blank">View Project</a>
+        <a href="index2.html" target="_blank">View More</a>
+      </div>
+  
+      <div class="project-card">
+        <h3>Resume Generator</h3>
+        <p>HTML | CSS | JavaScript</p>
+        <a href="../Resumegenerator/index.html" target="_blank">Live Demo</a>
+        <a href="index2.html" target="_blank">View More</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- contact -->
+  <section class="section contact" id="contact">
+    <h2 class="animated-text">Contact Me</h2>
+    <p class="contact-intro">Got a project or collaboration in mind? Let's connect!</p>
+  
+    <div class="contact-content">
+      <div class="contact-details">
+        <p><strong>Email:</strong> <a href="mailto:sanandaroy874@gmail.com">sanandaroy874@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+918197565387">+91 81975 65387</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sanandaroy/" target="_blank">Sananda_Roy</a></p>
+      </div>
+  
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
+
+  <script src="index.js"></script>
+</body>
+</html>

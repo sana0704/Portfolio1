@@ -1,0 +1,74 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background: #d6b9a5;
+    color: #333;
+  }
+
+
+  
+  .recipe-card, .recipe-details {
+    background: #D6E3F8;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .view-btn, .back-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #9D5C63;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  
+  .view-btn:hover, .back-btn:hover {
+    background: #584B53;
+  }
+
+  
+  /* internship web management app */
+  .project-card, .project-details {
+    background: #E4BB97;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+ div{
+    height: 50px;
+    width: 290px;
+    background-color: #9D5C63;
+    font-size: larger;
+    font-family: cursive;
+padding-top: 10px;
+padding-left: 15px;
+margin: 10px 10px 10px 10px;
+
+
+    & a{
+     color: #E4BB97;    
+     text-decoration: none;
+    }
+   
+
+    & a:hover{
+        color: navy;
+       
+    }
+
+   
+ }
+  .des{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+  }
